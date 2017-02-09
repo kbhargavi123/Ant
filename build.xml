@@ -33,7 +33,7 @@
  </manifest>
  </war>
  </target>
- <target name="ear" depends="cleanwar,clean,init,compile,run,jar,war">
+ <target name="ear" depends="cleanwar,init,compile,run,jar,war">
  <ear destfile="ear/create.ear" appxml="application.xml">
  <fileset dir="." includes="create.war"/>
  </ear>
