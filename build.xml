@@ -7,7 +7,6 @@
 </tstamp>
 <target name="init">
 <mkdir dir="dist1"/>
-<mkdir dir="dist"/>
 <mkdir dir="lib"/>
 <mkdir dir="ear"/>
 </target>
@@ -39,14 +38,14 @@
  <fileset dir="." includes="create.war"/>
  </ear>
  </target>
-	<target name="clean">
+	<!-- <target name="clean">
 		<delete>
 	<fileset dir="dist">
 	    <include name="*"/>
 	    
 	</fileset>
 </delete>
-		</target>
+		</target> -->
 		
 		<target name="cleanwar">
 		<delete>
