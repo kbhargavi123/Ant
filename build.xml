@@ -13,7 +13,7 @@
 <target name="run">
 
 <java classname="com.aarnav.code.demo">
-<classpath path="dist1"></classpath>
+<classpath path="dist1/com/aarnav/code"></classpath>
 </java>
  </target>
 <target name="compile">
